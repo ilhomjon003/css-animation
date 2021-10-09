@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.rocket{
+    animation: rocket 5s linear infinite;
+}
+
+
+@keyframes rocket{
+    0%{
+        transform: translateX(0);
+    }
+    100%
+    {
+        transform: translateX(300px);
+    }
+}
+
+
+
+
